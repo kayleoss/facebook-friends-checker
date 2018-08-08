@@ -10,8 +10,6 @@ chrome_path=r"path_to_chromedriver"
 driver = webdriver.Chrome(chrome_path, chrome_options=chrome_options)
 
 excelbook = load_workbook(filename="./friends.xlsx")
-
-friends_count = 0
 friends = []
 discarded_txt = ["friends", "Facebook", "Home", "Find Friends", "Friend Requests", "Messages", "Notifications", "Account Settings"]
 
